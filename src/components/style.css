@@ -1,0 +1,37 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+
+  .card{
+    border-radius: .75rem; background-color: #eff1f2;
+  }
+  .link{
+    color: #23af89;
+  }
+
+  .todo_card{
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 15px !important;
+    transition: all .5s ease-in-out;
+  }
+  .todo_card:hover{
+   background-color: #cecece !important;
+   transform: scale(1.03);
+  
+  }
+
+.icon,.form-check{
+    transform: scale(2);
+}
+
+.img{
+    height: 800px;
+    margin: 30px;
+}
